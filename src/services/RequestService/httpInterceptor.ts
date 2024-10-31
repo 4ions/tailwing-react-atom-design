@@ -24,7 +24,7 @@ export class HttpInterceptor {
     if (token || !token) {
       options.headers = this.buildHeaders({
         Authorization: `Bearer ${token}`,
-        'x-api-key': 'a0440b63-b6a4-4f75-61a7-c0c3053e8576',
+        'x-api-key': "SECRET",
       })
     }
 
