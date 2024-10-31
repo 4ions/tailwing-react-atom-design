@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .text-title {
+      @apply text-gray-500 font-semibold;
+    }
+    .text-content {
+      @apply tracking-tight text-gray-500 font-normal;
+    }
+  }
+  
+  
